@@ -1,0 +1,475 @@
+/* All common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul ol {
+
+    list-style-type: none;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common CSS END  */
+
+
+/* Header part css start */
+
+.navbar 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+ .nav-link {
+
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.nav-link:hover
+{
+    color: #4756df;
+}
+.contact_btn
+{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#banner_part
+{
+background-image: url(../images/Banner\ 1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.banner_overly
+{
+padding-top: 330px;
+padding-bottom: 180px;
+background: rgba(0, 0, 0, 0.62);
+
+}
+.navbar-toggler-icon {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHqmUlgd6RHmRRu04hBv4cLBMP0UArx__4gw&s);
+}
+
+.banner_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    line-height: 120%;
+    font-weight: 700;
+}
+.banner_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 0px 214px;
+}
+.banner_text a{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Header part css end */
+
+/* counter part start */
+#counter_part
+{
+   padding-top: 170px;
+   padding-bottom: 80px;
+
+}
+.counter_left_text p{
+    padding-bottom: 30px;
+    color: #6A4DF4;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.counter_left_text h3{
+    padding-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.counter_item h3
+{
+    padding-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.counter_item p
+{
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.extra_bg
+{
+    padding: 95px 50px;
+    background: #E0FFF9;
+    border-radius: 10px;
+}
+/* counter part end. */
+
+ /* service part Started  */
+#service_part
+{
+padding-top: 80px;
+padding-bottom: 155px;
+
+}
+.service_header_text
+{
+    padding-bottom: 49px;
+}
+.service_header_text h1
+{
+    padding-bottom: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.service_header_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+    padding: 0 340px;
+    line-height: 25px;
+}
+.service_item
+{
+  padding: 55px;
+  transition: .3s;
+  
+}
+.service_item:hover
+{
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  
+}
+.service_text h3
+{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.service_text p
+{
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* service part ended  */
+
+/* work part started */
+#work_part
+{
+    height:1470px ;
+    background-image: url(../images/workbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 112px;
+    border-radius: 10px;
+
+}
+
+.work_item{
+    border-radius: 20px;
+}
+
+
+.work_text_part h3
+{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 22px;
+    
+}
+.work_text_part p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+/* work part  ended */
+
+/* Why Choose Agency Part Started. */
+#choose_agency
+{
+padding-top: 149px;
+
+}
+
+.choose_agency_heading_text h1
+{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 28px;
+   
+}
+
+.choose_agency_heading_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 568px 105px 577px;
+}
+
+.choose_agency_item
+{
+    margin-left: 112px;
+  
+}
+
+.agency_text h3
+{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 11px;
+    padding-bottom: 10px;
+
+}
+.agency_text p
+{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+/* Why Choose Agency Part Ended. */
+
+/* client part started */
+#client_review_part
+{
+        padding-top: 150px;
+        padding-bottom: 227px;
+}
+
+.client_review_heading_text h1
+{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 28px;
+}
+
+.client_review_heading_text p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 572px 105px 577px;
+}
+
+
+.quotes_item:hover
+{
+  color: #F4EFEF;
+  font-size:25px;
+  transition: all 500ms;
+  font-size-adjust: 20px;
+}
+
+.quotes_item p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.author
+{
+    display: flex;
+    padding-right: 22px;
+}
+
+.icon_avatar
+{
+    padding-right: 22px;
+}
+.icon_text p
+{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* client part ended */
+
+/* get pricing section started  */
+#get_price
+{
+    height: 922px;
+    background: #DCDCDC;
+}
+
+.get_text {
+    padding-top: 323px;
+    padding-bottom: 323px;
+    padding-right: 133px;
+    padding-left: 44px;
+}
+.get_text h1
+{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.get_text p
+{
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.contact_btnnnn
+{
+    width: 100%;
+    background-color: #6A4DF4;
+}
+
+.form_part
+{
+margin-top: 285px;
+margin-bottom: 124px;
+
+
+background: white ;
+border-radius: 10px;
+}
+
+
+.form-label
+{
+    font-weight: 500;
+}
+/* get pricing section ended  */
+
+/* footer part started */
+#footer_part
+{
+    padding-top: 150px;
+}
+
+
+.agenc{
+    padding-top: 150px;
+    padding-bottom: 222px;
+}
+
+.agenc  h3
+{
+ font-size: 30px;
+ font-weight: 600;
+ padding-bottom: 30px;
+}
+
+.agenc  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 79px;
+}
+
+.agenc .about h3
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+.agenc .about p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.agenc .company h3
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.agenc .company p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.agenc .support h3
+{
+    font-size: 20px;
+  font-weight: 600;
+}
+.agenc .support p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.agenc .getintouch h3
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.agenc .getintouch p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+/* footer part ended */
